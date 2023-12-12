@@ -1,0 +1,63 @@
+.card {
+    font-size: 2.5rem;
+    width: 75%;
+    margin: 0 auto;
+    color:#f3f3f3;
+    text-align: left;
+    padding-bottom: 20px;
+ }
+ 
+
+.profissinal {
+    font-size: 3rem;
+    margin-bottom: 9rem;
+
+}
+
+.titulo {
+    font-size: 3rem;
+    color: #f3f3f3;;
+}
+
+.picture {
+    padding-top: 20px;
+    max-width: 500px;
+}
+
+
+.minus {
+    color:#56bb8f;
+    font-weight: bolder;
+    text-decoration: none;
+
+   
+
+}
+.minus:hover {
+    color: #f8f6f6;
+    font-weight: 700;
+     transition: 0.4 ease-in-out;
+ }
+
+ .udemy-link {
+    text-decoration: none;
+    border-bottom: 1px solid rgba(164, 66, 164, 0.946);
+ }
+ .udemy-link:hover {
+color: rgb(215, 79, 215);
+ }
+
+ /* TECNOS , LOGOS */
+ .tecnos-logos {
+    width: 4rem;
+ }
+ .tecno {
+    
+    display: flex;
+    gap: 3rem;
+
+}
+.sections-profissional {
+    display: grid;
+    grid-template-columns: 80fr 100fr;
+}

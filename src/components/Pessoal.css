@@ -1,0 +1,29 @@
+.card {
+    font-size: 3rem;
+    width: 75%;
+    margin: 0 auto;
+    color:#f3f3f3;
+ 
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 20px;
+ }
+
+
+ .picture {
+    display: flex;
+
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.card-pessoal {
+    margin-top: 4rem;
+ 
+}
+
+.card-grid {
+    display: grid;
+
+    grid-template-columns:100fr 150fr;
+}
