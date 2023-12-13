@@ -5,6 +5,7 @@ import logo_ominifood from '../assets/omnifood.jpg'
 import todo_react from '../assets/todo-react.jpg'
 import tela_pagamento from '../assets/tela-pagamento.jpg'
 import tela_cadastro from '../assets/tela-cadastro.jpg'
+import tela_quiz from '../assets/quiz-imagem.jpg'
 import './Portfolio.css'
 
 
@@ -26,6 +27,7 @@ const Portfolio = () => {
 
             <div className='restaurante'>
                 <img src={logo_ominifood} alt="" />
+                <a href="https://quiz-perguntas-javascript.vercel.app/" target='_blank'><img src={tela_quiz} alt="" /></a>
 
             </div>
         </div>
