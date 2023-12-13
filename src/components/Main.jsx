@@ -3,6 +3,7 @@ import Profissional from './Profissional'
 import Pessoal from './Pessoal'
 import SobreMim from './SobreMim'
 import Portfolio from './Portfolio'
+import Hobbies from './Hobbies'
 
 
 function Main() {
@@ -12,6 +13,7 @@ function Main() {
         <Profissional/>
         <Pessoal/>
         <SobreMim/>
+        <Hobbies/>
         
        
     </div>

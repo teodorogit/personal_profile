@@ -24,7 +24,7 @@ const Portfolio = () => {
         <div className='container-portfolio'>
             <h3>Projetos responsivos</h3>
 
-            <div>
+            <div className='restaurante'>
                 <img src={logo_ominifood} alt="" />
 
             </div>
@@ -35,7 +35,7 @@ const Portfolio = () => {
             <h3>Projetos apenas desktop</h3>
             <div>
                 <a href="https://landing-page-bot-discord.vercel.app/" target='_blank'><img src={bot_discord} alt="" /></a>
-                <a href="https://site-de-venda-cadeiras-1b73tg9uj.vercel.app/" target='_blank'><img src={site_cadeiras} alt="" /></a>
+                <a href="https://site-de-venda-cadeiras.vercel.app/" target='_blank'><img src={site_cadeiras} alt="" /></a>
             </div>
 
         </div>

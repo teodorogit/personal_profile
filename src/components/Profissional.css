@@ -23,6 +23,11 @@
     padding-top: 20px;
     max-width: 500px;
 }
+@media (max-width:500px){
+    .picture {
+        max-height: 250px;
+    }
+}
 
 
 .minus {
@@ -60,4 +65,19 @@ color: rgb(215, 79, 215);
 .sections-profissional {
     display: grid;
     grid-template-columns: 80fr 100fr;
+}
+
+@media (max-width:520px){
+    .card {
+        font-size: 1.5rem;
+        width: 75%;
+        margin: 0 auto;
+        color:#f3f3f3;
+        text-align: left;
+        padding-bottom: 20px;
+     }
+     .sections-profissional {
+        display: grid;
+        grid-template-columns: 100fr;
+    }
 }

@@ -27,12 +27,17 @@ function SobreMim() {
     <div>
         <article class="article-sobre" id='sobre'>
                 <div className='article-sobre-links'>
-                    <img src={escritorio} alt="" className="escritorio-img"/>
-                    <a href="#experiencia" className="scroll-link topicos">Ultimos Cursos</a>
-                    <a href="#onde" className="scroll-link topicos">De onde eu vim?</a>
-                    <a href="#onde" className="scroll-link topicos">Expêriencia de quase morte</a>
-                    <a href="#onde" className="scroll-link topicos">Meus Hobbies</a>
-                
+
+                    <div>
+                        <img src={escritorio} alt="" className="escritorio-img"/>
+                    </div>
+                    
+                    <div className='child-sobre-section'>
+                        <a href="#experiencia" className="scroll-link topicos">Ultimos Cursos</a>
+                        <a href="#onde" className="scroll-link topicos">De onde eu vim?</a>
+                        <a href="#onde" className="scroll-link topicos">Expêriencia de quase morte</a>
+                        <a href="#onde" className="scroll-link topicos">Meus Hobbies</a>
+                    </div>
                 </div>
 
                 <div class="article-sobre-card-1">
@@ -41,8 +46,9 @@ function SobreMim() {
                
                 <div className="card-quem-2">
                     <h3  className="card-quem-title">Sou Matheus Teodoro</h3>
-                    <p>Um jovem de 21 anos, morador de Marialva-PR, estudante, cristão e tecladista.
-                    Porém todas as bolhas sociais, sou apaixonado pelas coisas simples, gosto de ler, gosto de fazer um caminhada ouvindo música e ver o por sol, sou daquelas pessoas que gosta tanto de música classica como Paganini, até Queen, gosto de ler e escrever também!Tenho um pré-projeto ciêntifico e um livro, de suspense quem estão em desenvolvimento.  </p>
+                    <p>Um jovem de 21 anos, morador de Marialva-PR, estudante (4º Período de A.D.S), cristão e tecladista.
+                    Mas fora de todas essas coisas, sou apaixonado pelas coisas simples, gosto de ler, gosto de fazer um caminhada ouvindo música e ver o por sol, sou daquelas pessoas que gosta de um pouco de tudo, música classica ou queen Queen, gosto de ler e escrever também! Tenho um pré-projeto ciêntifico e um livro, de suspense quem estão em desenvolvimento.</p>
+                    <p>Com 6 meses trabalhando na área, fui responsável por atualizar o design do site  em React da<a className="minus" href="https://minus.eco.br/"> Minus</a>, tenho experiência Front end com projetos e tratamento de responsividade, trabalhando com modelos no figma, e metodologia Kanban. </p>
 
                 </div>
             </div>

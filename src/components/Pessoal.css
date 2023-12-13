@@ -27,3 +27,20 @@
 
     grid-template-columns:100fr 150fr;
 }
+
+@media (max-width:500px){
+    .card {
+        font-size: 2rem;
+        width: 75%;
+        margin: 0 auto;
+        color:#f3f3f3;
+    
+        text-align: left;
+        padding-bottom: 20px;
+        padding-top: 10px;
+     }
+     .card-grid {
+    grid-template-columns: 150fr;
+    }
+    
+}
