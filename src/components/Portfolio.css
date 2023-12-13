@@ -54,7 +54,7 @@
     right: -2.5rem;
   border-radius: 3px;
     transform:rotate(30deg);
-    z-index: ;
+    z-index: 5;
 }
 @media (max-width:520px){
 
