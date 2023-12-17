@@ -6,6 +6,7 @@ import todo_react from '../assets/todo-react.jpg'
 import tela_pagamento from '../assets/tela-pagamento.jpg'
 import tela_cadastro from '../assets/tela-cadastro.jpg'
 import tela_quiz from '../assets/quiz-imagem.jpg'
+import gerenciador_gastos from '../assets/gerenciador_gastos.jpg'
 import './Portfolio.css'
 
 
@@ -17,7 +18,7 @@ const Portfolio = () => {
             <h3>Projetos com React </h3>
             <div>
                  <a href="https://todo-list-react-smoky-alpha.vercel.app/" target='_blank'><img src={todo_react} alt="" /></a>
-
+                <a href="https://app-gerenciador-gastos.vercel.app/" target='_blank'><img src={gerenciador_gastos} alt="" /></a>
             </div>
         </div>
         
@@ -26,7 +27,7 @@ const Portfolio = () => {
             <h3>Projetos responsivos</h3>
 
             <div className='restaurante'>
-                <img src={logo_ominifood} alt="" />
+                <a href="https://omnifood-restaurante.vercel.app/" target='_blank'><img src={logo_ominifood} alt="" /></a>
                 <a href="https://quiz-perguntas-javascript.vercel.app/" target='_blank'><img src={tela_quiz} alt="" /></a>
 
             </div>
