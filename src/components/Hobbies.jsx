@@ -12,7 +12,7 @@ const Hobbies = () => {
             <div>
               <img src={imagem_portfolio} alt="" />
             </div>
-            <p>Sobre esse site: Ele é construido utilizando Vite +  React  com styled components</p>
+            <p id='hobbie_text'>Sobre esse site: construido utilizando npm create Vite@latest + React'  com styled components</p>
             
         </div>
         <div>
