@@ -37,10 +37,10 @@ function Profissional() {
              <div>
               <div className='card'>
               <h3 className='titulo'>Ultimos cursos</h3>
-              <p> React complete Guide - <a className='udemy-link' href='https://www.udemy.com/course/react-the-complete-guide-incl-redux/'>Udemy</a></p>
-              <p>Python do básico ao avançado - <a className='udemy-link' href='https://www.udemy.com/course/curso-de-programacao-em-python-do-basico-ao-avancado/'>Udemy</a> </p>
-              <p> Git e Github - <a  className='udemy-link' href="https://www.udemy.com/course/git-e-github-para-iniciantes/">Udemy</a></p>
-              <p>Html e Css - Real World- <a className='udemy-link' href='https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/'>Udemy</a></p>
+              <p> React complete Guide - <a className='udemy_link' href='https://www.udemy.com/course/react-the-complete-guide-incl-redux/'>Udemy</a></p>
+              <p>Python do básico ao avançado - <a className='udemy_link' href='https://www.udemy.com/course/curso-de-programacao-em-python-do-basico-ao-avancado/'>Udemy</a> </p>
+              <p> Git e Github - <a  className='udemy_link' href="https://www.udemy.com/course/git-e-github-para-iniciantes/">Udemy</a></p>
+              <p>Html e Css - Real World- <a className='udemy_link' href='https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/'>Udemy</a></p>
           </div>
         </div>
        </div>

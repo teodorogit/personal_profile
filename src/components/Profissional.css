@@ -11,8 +11,8 @@
 .profissinal {
     font-size: 3rem;
     margin-bottom: 9rem;
-
 }
+
 
 .titulo {
     font-size: 3rem;
@@ -44,11 +44,14 @@
      transition: 0.4 ease-in-out;
  }
 
- .udemy-link {
+ .udemy_link {
     text-decoration: none;
-    border-bottom: 1px solid rgba(164, 66, 164, 0.946);
+    color: #e31ac1;
+    transition: all 400ms;
  }
- .udemy-link:hover {
+
+
+ .udemy_link:hover {
 color: rgb(215, 79, 215);
  }
 
