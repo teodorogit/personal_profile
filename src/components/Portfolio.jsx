@@ -10,7 +10,6 @@ import gerenciador_gastos from '../assets/gerenciador_gastos.jpg'
 import coast from '../assets/coast.jpg'
 import './Portfolio.css'
 import CardPortfolio from './cards/CardPortfolio'
-import { IoSearch } from "react-icons/io5";
 
 
 const Portfolio = () => {
