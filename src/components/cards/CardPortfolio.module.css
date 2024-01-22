@@ -1,0 +1,51 @@
+.container_card {
+    width: 375px;
+    border: 2px solid #667;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+    position: relative;
+
+}
+
+.imagem_card {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.descricao_card {
+    font-size: 2.2em;
+    color: #eee;
+    text-align: start;
+    padding-bottom: 30px;
+    text-align: start;
+}
+
+.titulo_card {
+    display: flex;
+    align-items: center;
+    gap:10px;
+    color:#eee;
+    font-size: 2.5em;
+}
+.button_class {
+    text-decoration: none;
+    font-size: 2.5em;
+    display: flex;
+    background-color: #222;
+   position: absolute;
+    display: flex;
+    color:white;
+    width: 91%;
+    bottom: 0;
+    padding-left:10px;
+}
+.button_class:hover {
+    opacity: 0.97;
+    border-radius: 5px;
+    background-color: rgb(8, 6, 6);
+}

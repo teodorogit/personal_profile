@@ -1,69 +1,55 @@
+body {
+    background-color:#151515 
+}
 .section-portfolio {
-    /* height: 180vh; */
-    display: grid;
-    grid-template-columns:1fr;
-    column-gap: 20px;
-    color: #f5f5f5;
-    font-size: 2.2rem;
-    row-gap: 4rem;
-    margin-bottom: 100px;
-
-}
-@media (max-width:850px){
-    .section-portfolio {
-    grid-template-columns:1fr;
-
-    }
-    .container-portfolio {
-        display: grid;
-        grid-template-columns: 70fr 80fr;
-        align-items: center;
-        text-align: center;      
-    }
-
-}
-
-
-.container-portfolio {
-    display: grid;
-    grid-template-columns: 70fr 100fr;
+    display: flex;
+    flex-direction: column;
+    background-color:#151515 ;
+    justify-content: center;
     align-items: center;
+padding-bottom: 200px;
+}
+
+.titulo_separador {
     text-align: center;
+    font-size: 4em;
+    color: #eee;
+}
+h2 {
+    color: aliceblue;
+    font-size: 2em;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.input {
+    width: 50%;
+    margin: 0 auto;
     position: relative;
-    
-    
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 15px;
+    font-size: 18px;
 }
-.container-portfolio img {
-    border-radius:10px;
-    width: 35%;
-    height: 210px;
-    transition: all .3s;
- padding: 5px;
- 
+.input_element {
+    display: flex;
+    position: relative;
 }
 
-.container-portfolio img:hover {
-    transform: scale(1.05)
+.search_icon {
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    top: 4px;
+    right: 25.5%;
+}
+.grid_div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 3px solid #1F1F1F;
+    column-gap: 20px;
 }
 
-
-@media (max-width:520px){
-
-    .section-portfolio {
-        margin-top: 20px;
-        color: #f5f5f5;
-        font-size: 1.6rem;
-        row-gap: 4rem;
-     
-        }
-        .container-portfolio {
-            display: flex;
-            flex-direction: row;
-           flex-direction: column;
-            align-items: center;
-            text-align: center;      
-            width: 100%;
-            margin: 0 auto;
-        }
-      
-}

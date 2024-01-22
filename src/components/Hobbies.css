@@ -7,8 +7,13 @@
     font-size: 3rem;
     color: #f5f5f5;
     padding: 0px 1rem 0px 1rem;
- 
 }
+
+.clock {
+    font-size: 36px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
 
 .hobbies-container img {
     max-width: 60%;
@@ -21,8 +26,8 @@
     align-items: center;
     justify-content: center;
     gap: 1rem;
-
 }
+
 
 .card-hobbies a {
     font-size: 1.8rem;
@@ -58,4 +63,17 @@
 }
 #hobbie_text {
     font-size: 2.5rem;
+}
+.introduction {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+.capa {
+    height: 50%;
+    width: 90%;
+border-radius: 50%;
+border: 2px dashed rgba(188, 185, 185, 0.571);
+margin: 0 auto;
 }

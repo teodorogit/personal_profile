@@ -8,18 +8,27 @@
     padding-bottom: 20px;
     padding-top: 20px;
  }
-
-
  .picture {
     display: flex;
 
     margin: 0 auto;
     max-width: 500px;
 }
-
+.links {
+    text-decoration: none;
+}
 .card-pessoal {
     margin-top: 4rem;
  
+}
+.titulo {
+    text-align: center;
+    margin: 60px 0px 40px;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .card-grid {

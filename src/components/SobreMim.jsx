@@ -1,35 +1,19 @@
-import React from 'react'
-import escritorio from '../assets/escritorio.jpg'
 import matheus from '../assets/matheus.png'
 import './SobreMim.css'
 import hospital from '../assets/hospital.svg'
 import mapa from '../assets/mapa.svg'
+import CardHobbie from './cards/CardHobbie'
+import React from 'react';
+import Carrousel from './Carrousel'
 
 function SobreMim() {
-
-        var scrollLinks = document.querySelectorAll('.scroll-link');
-
-        // Adicione um evento de clique a cada link
-        scrollLinks.forEach(function (link) {
-            link.addEventListener('click', function (e) {
-                e.preventDefault();
-
-                // Obtenha o destino do link usando o atributo href
-                var targetId = this.getAttribute('href').substring(1);
-                var targetElement = document.getElementById(targetId);
-
-                // Role suavemente até o elemento de destino
-                targetElement.scrollIntoView({ behavior: 'smooth' });
-            });
-        });
-
   return (
     <div>
+                <Carrousel />
         <article class="article-sobre" id='sobre'>
                 <div className='article-sobre-links'>
 
                     <div>
-                        <img src={escritorio} alt="" className="escritorio-img"/>
                     </div>
                     
                     <div className='child-sobre-section'>

@@ -20,7 +20,6 @@ const Hobbies = () => {
             <img src={imagem_espaco} alt="" />
     <p>Clique para interagir</p>
             <div className='card-hobbies'>
-             <a href="https://www.facebook.com/100005651013733/videos/367479812447179/" target="_blank">Violino</a>
               <a href="https://www.facebook.com/100005651013733/videos/232643852903747/" target="_blank">Teclado</a>
               <a href='https://docs.google.com/document/d/1RRdSoHkFxsabNayVzuE8B14Mp1IpTZvYA2CoD0U_rkQ/edit?usp=sharing' target='_blank'>Ler meu livro</a>
               

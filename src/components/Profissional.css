@@ -7,10 +7,10 @@
     padding-bottom: 20px;
  }
  
-
 .profissinal {
+
     font-size: 3rem;
-    margin-bottom: 9rem;
+
 }
 
 
@@ -34,8 +34,6 @@
     color:#56bb8f;
     font-weight: bolder;
     text-decoration: none;
-
-   
 
 }
 .minus:hover {
@@ -66,9 +64,15 @@ color: rgb(215, 79, 215);
 
 }
 .sections-profissional {
-    display: grid;
-    grid-template-columns: 80fr 100fr;
+    display:flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-evenly;
 }
+.sections-profissional img {
+    width: 45px;
+}
+
 
 @media (max-width:520px){
     .card {
