@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './CardPortfolio.module.css'
-import { IoCodeSlashOutline } from "react-icons/io5";
 
 
 const CardPortfolio = ({titulo,description,imageUrl,link,tag}) => {
@@ -10,7 +9,7 @@ const CardPortfolio = ({titulo,description,imageUrl,link,tag}) => {
         <img src={imageUrl} alt={titulo} className={styles.imagem_card}></img>
       </div>
       <div className={styles.text}>
-        <h2 className={styles.titulo_card}> <IoCodeSlashOutline />{titulo}</h2>
+        <h2 className={styles.titulo_card}>{titulo}</h2>
         <p className={styles.descricao_card}>{description}</p>
         <a className={styles.button_class}href={link}target='_blank' rel='noopener noreferrer'> + Detalhes</a>
         </div>
