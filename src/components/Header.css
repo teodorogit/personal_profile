@@ -88,9 +88,10 @@ text-align: center;
     list-style:none;
     color: black;
     font-weight: bold;
-    padding: 5px;
-    animation: letras 16s infinite;
+    padding: 7px;
+    background-color: #bbb;
 }
+
 .header-list a:hover{
     background-color: rgba(0, 0, 0, 0.322);
     box-shadow: 0px 20px 30px #55bfd232;

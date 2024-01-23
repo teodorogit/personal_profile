@@ -6,7 +6,9 @@ import todo_react from '../assets/todo-react.jpg'
 import tela_pagamento from '../assets/tela-pagamento.jpg'
 import tela_cadastro from '../assets/tela-cadastro.jpg'
 import tela_quiz from '../assets/quiz-imagem.jpg'
+import react_sass from '../assets/pega_sass.png'
 import gerenciador_gastos from '../assets/gerenciador_gastos.jpg'
+import desaparecidos from '../assets/site_desaparecido.jpg'
 import coast from '../assets/coast.jpg'
 import './Portfolio.css'
 import CardPortfolio from './cards/CardPortfolio'
@@ -46,6 +48,12 @@ const Portfolio = () => {
                 description='Programa que permite a criação de um gasto, onde é definido uma data e um valor, é possivel realizar uma filtragem por ano e visualizar de forma geral por gráfico dinâmico'  
                 link="https://github.com/teodorogit/coasts"
                 />
+                <CardPortfolio
+                imageUrl={react_sass}
+                titulo='Apresentação pessoal'
+                description='Uma pagina web desenvolvida com React e Sass para contar um pouco sobre minhas caracteristicas profissionais e pessoais'
+                link="https://single-profile-page.vercel.app/"
+                />
                 {/* ************* */}
 
             </div>
@@ -64,7 +72,7 @@ const Portfolio = () => {
                 titulo='Quiz de perguntas'
                 description='Quiz de perguntas com pontuação de erros e acertos, randonização de perguntas e exibição de respostas certa ou erradas'
                 link="https://quiz-perguntas-javascript.vercel.app/"
-                />
+                />   
             </div>
             <h3 className='titulo_separador'>Projetos apenas desktop</h3>
             <div className='grid_div'>
@@ -79,6 +87,12 @@ const Portfolio = () => {
                 titulo='Site venda de cadeiras'
                 description='Perfil virtual de uma loja de venda de cadeiras, não responsivo para mobile.'
                 link="https://site-de-venda-cadeiras.vercel.app/"
+                />  
+                 <CardPortfolio
+                imageUrl={desaparecidos}
+                titulo='Site sobre desaparecidos'
+                description='Perfil virtual de uma loja de venda de cadeiras, não responsivo para mobile.'
+                link="https://projeto-site-desaparecidos.vercel.app/"
                 />  
             </div>
 

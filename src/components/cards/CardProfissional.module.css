@@ -2,6 +2,7 @@
 .card_component {
     background-image: linear-gradient(45deg, rgba(151, 122, 238, 0.119),rgba(111, 164, 214, 0));
     width: 550px;
+    min-height: 550px;
     display: flex;
     gap: 25px;
     flex-direction: column;
@@ -17,6 +18,7 @@ box-shadow: -2px 20px 30px rgba(255, 255, 255, 0.095);
 
 .card_component h2 {
     font-size: 3rem;
+    padding-bottom: 10px;
 }
 .card_component p {
     font-size: 2rem;
@@ -24,7 +26,7 @@ box-shadow: -2px 20px 30px rgba(255, 255, 255, 0.095);
     
 }
 .card_component h3 {
-    font-size: 4rem;
+    font-size: 2.2rem;
     color: #55BFD2;
     font-family: 'Montserrat', sans-serif;
 }

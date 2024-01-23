@@ -2,10 +2,17 @@ import React from 'react'
 import './Header.css'
 import reactLogo from '../assets/react.svg'
 import matheus_image from '../assets/matheus.png'
-import gif from '../assets/giphy.gif'
-
 
 function Header() {
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+})
 
   return (
     <div className='container_header'>

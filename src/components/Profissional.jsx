@@ -27,7 +27,7 @@ function Profissional() {
             img2={logo_javascript}
             img3={logo_python}
             img4={logo_sass}
-            main=' 7 meses de experiência '
+            main=' 7 meses trabalhando com Dev front- end '
             />
             <CardProfissional 
             titulo='Ultimos cursos'
