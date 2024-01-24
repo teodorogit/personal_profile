@@ -22,19 +22,19 @@ const Carrousel = () => {
           <div className='containerStyle'>
             <Slider {...settings}>
               <div>
-               <img src={voluntario1} alt="" className='imageStyle'/>
+               <img src={voluntario1} alt="" className='image_style'/>
               </div>
               <div>
-              <img src={caroussel1} alt="" className='imageStyle'/>
+              <img src={caroussel1} alt="" className='image_style'/>
               </div>
               <div>
-               <img src={caroussel2} alt="" className='imageStyle'/>
+               <img src={caroussel2} alt="" className='image_style'/>
               </div>
               <div>
-               <img src={voluntari2} alt="" className='imageStyle'/>
+               <img src={voluntari2} alt="" className='image_style'/>
               </div>
               <div>
-               <img src={voluntario3} alt="" className='imageStyle'/>
+               <img src={voluntario3} alt="" className='image_style'/>
               </div>
             </Slider>
             </div>
