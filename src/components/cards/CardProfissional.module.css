@@ -12,8 +12,8 @@
     transition: 200ms;
 }
 .card_component:hover {
-cursor: pointer;
-box-shadow: -2px 20px 30px rgba(255, 255, 255, 0.095);
+    cursor: pointer;
+    box-shadow: -2px 20px 30px rgba(255, 255, 255, 0.095);
 } 
 
 .card_component h2 {
@@ -36,3 +36,17 @@ box-shadow: -2px 20px 30px rgba(255, 255, 255, 0.095);
     gap: 40px;
 }
 
+@media (max-width:500px){
+    .card_component {
+        width: 100%;
+    }
+    .card_component p {
+        font-size: 1.5rem;
+    }
+    .card_component h3 {
+        font-size: 1.9rem;
+    }
+    .card_component div {
+        flex-wrap: wrap;
+    }
+}

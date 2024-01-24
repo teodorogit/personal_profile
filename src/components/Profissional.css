@@ -30,44 +30,24 @@
 }
 
 
-.minus {
-    color:#56bb8f;
-    font-weight: bolder;
-    text-decoration: none;
-
-}
-.minus:hover {
-    color: #f8f6f6;
-    font-weight: 700;
-     transition: 0.4 ease-in-out;
- }
-
- .udemy_link {
-    text-decoration: none;
-    color: #e31ac1;
-    transition: all 400ms;
- }
 
 
  .udemy_link:hover {
 color: rgb(215, 79, 215);
  }
 
- /* TECNOS , LOGOS */
- .tecnos-logos {
-    width: 4rem;
- }
- .tecno {
-    
-    display: flex;
-    gap: 3rem;
 
-}
 .sections-profissional {
     display:flex;
     padding: 10px;
     align-items: center;
     justify-content: space-evenly;
+}
+@media (max-width:1000px){
+    .sections-profissional {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 .sections-profissional img {
     width: 45px;

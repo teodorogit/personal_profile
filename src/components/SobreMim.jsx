@@ -32,7 +32,7 @@ function SobreMim() {
                 A superação dessa provação não apenas fortaleceu minha apreciação pela vida, como aumentou minha gratidão pela oportunidade de continuar minha jornada. Esse episódio desafiador por um milagre nao me deixou sequelas ou cicatrizes físicas, porém forjou em mim um respeito enorme pela área da sáude e me deu uma nova visão de mundo.'/> 
           
                 <CardProfissional 
-                titulo={'Mais Sobre' } 
+                titulo='Mais Sobre' 
                 conteudo={
                   <>Conteudo no slide:<br/><br/>
                     &copy; Monitor voluntário - Feira de procura de empregos pela Faculdade,<br />

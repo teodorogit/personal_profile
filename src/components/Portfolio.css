@@ -51,5 +51,24 @@ h2 {
     grid-template-columns: repeat(4, 1fr);
     border: 3px solid #1F1F1F;
     column-gap: 20px;
+    padding:20px;
 }
 
+@media (max-width:1000px){
+    .grid_div {
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+}
+
+@media(max-width:500px){
+    .grid_div{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .titulo_separador {
+        text-align: center;
+        font-size: 2.8em;
+        color: #eee;
+    }
+}

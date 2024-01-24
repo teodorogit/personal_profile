@@ -95,7 +95,7 @@ text-align: center;
 .header-list a:hover{
     background-color: rgba(0, 0, 0, 0.322);
     box-shadow: 0px 20px 30px #55bfd232;
-border-radius: 5px;
+    border-radius: 5px;
 
 }
 
@@ -132,29 +132,33 @@ border-radius: 5px;
         gap: 40px;
         font-size: 1.5rem;
     }
-     
- }
- @media (max-width:440px){
-    .portfolio {
-        color: #fff;
-        font-size: 2.4rem;
-        margin-bottom: 2rem;
-     
-     }
-     .header-list {
-        display: flex;
-        list-style: none;
-        color: white;
-        justify-content: space-between;
-        gap: 20px;
-        font-size: 1.5rem;
+    .card_self > img {
+        height: 40%;
+        width: 35%;
+        margin: 0 auto;
+        border-radius: 50%;
+        border: 5px solid black;
     }
-     
+    .card_self > h2 {
+        font-size: 3em;
+        font-family: 'Lemon', serif;
+    }
+
+    .card_self > p {
+        font-size: 2em;
+        background-color: #222;
+        color: #eee;
+        text-align: center;   
+    }
+    .container_header {
+        height: 80vh;
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.727),rgba(104, 168, 184, 0.104),rgba(0, 0, 0, 0.75)), url(../assets/fundo-lampada.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
  }
-.container {
-    display: grid;
-    grid-template-header: 1fr 1fr;
-}
+ 
  .logo {
     height: 6em;
     animation: logo-spin 6s infinite;
@@ -163,22 +167,22 @@ border-radius: 5px;
     position: absolute;
     right: 20px;
     top: 40px;
-  }
+}
 
-  .logo:hover {
+.logo:hover {
     filter: drop-shadow(0 0 2em #646cffaa);
   }
   .logo.react:hover {
-    filter: drop-shadow(0 0 2em #61dafbaa);
-  }
-
-  @keyframes logo-spin {
-    from {
-        transform: rotate(0deg);
+      filter: drop-shadow(0 0 2em #61dafbaa);
+    }
+    
+    @keyframes logo-spin {
+        from {
+            transform: rotate(0deg);
         filter: grayscale(25%);
     }
     50% {filter: grayscale(50%);
-       
+        
     }
     to {
         transform: rotate(360deg);
@@ -188,4 +192,34 @@ border-radius: 5px;
 .introduction > div > p {
     font-size: 6em;
     color: #777;
+}
+
+@media (max-width:440px){
+   .portfolio {
+       color: #fff;
+       font-size: 1.5rem;
+       margin-bottom: 2rem;
+    }
+    .header-list {
+       display: flex;
+       list-style: none;
+       color: white;
+       justify-content: space-between;
+       gap: 20px;
+       font-size: 1rem;
+   }
+   .card_self h2 {
+    font-size: 3em;
+    text-align: center;
+    color: #eee;
+    }  
+    .logo {
+        height: 3em;
+        animation: logo-spin 6s infinite;
+        will-change: filter;
+        transition: filter 300ms;
+        position: absolute;
+        right: 10px;
+        top: 15px;
+    } 
 }
