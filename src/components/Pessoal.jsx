@@ -16,8 +16,11 @@ function Pessoal() {
                  content='Tecladista e Violinista' />  </a>
                 <CardHobbie
                 content='Falo ingles B2 e russo básico' />           
+                <a href='https://docs.google.com/document/d/1RRdSoHkFxsabNayVzuE8B14Mp1IpTZvYA2CoD0U_rkQ/edit?usp=sharing' target='_blank' className='links'>
                 <CardHobbie
+                
                 content='Escrevendo: livro de Suspense: Oque aconteceu na mansão SINA' />
+                </a>
                 <CardHobbie
                 content='Pré-projeto ciéntifico: Exaustão  mental na área da tecnologia ' />
               </div>
